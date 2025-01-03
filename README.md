@@ -86,6 +86,15 @@ In this repository, there is going to be one working example for `Julia`. In her
 How to import data from a file:
 
 ```julia
+data1 = CSV.read("data.csv", DataFrame)
+```
 
+Now, in order to run that previous command, you will need:
 
+```julia
+import Pkg
+Pkg.add("CSV")
+Pkg.add("DataFrames")
+using CSV
+using DataFrames
 ```
