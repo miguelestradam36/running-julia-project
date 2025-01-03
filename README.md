@@ -76,14 +76,16 @@ notebook()
 
 In this case, you can install Jupyter while running the notebook command. In this case, Julia would install Jupyter using `Conda`
 
-## Documentation
 
-I am going to provide a quick discussion about this project documentation.
+## Working example
+
+In this repository, there is going to be one working example for `Julia`. In here you are going to input data from a CSV file and then we are going to analyze this data through commands with Julia.
+
+#### Getting data from a CSV file using Julia
+
+How to import data from a file:
+
+```julia
 
 
-### Working examples
-
-Projects you will find in this repository: 
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+```

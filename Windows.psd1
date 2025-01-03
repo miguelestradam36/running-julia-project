@@ -1,0 +1,1 @@
+winget install julia -s msstore
